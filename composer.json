@@ -1,5 +1,5 @@
 {
-	"name": "kdyby/doctrine-dbal-batchimport",
+	"name": "ijvo/kdyby-doctrine-dbal-batchimport",
 	"type": "library",
 	"description": "Batch import & execute utils for effective processing of SQL Imports from files and strings",
 	"keywords": ["kdyby", "doctrine", "dbal", "import", "sql", "query", "batch", "execute"],
@@ -30,10 +30,10 @@
 	},
 	"require": {
 		"php": ">=5.4",
-		"doctrine/dbal": "~2.4"
+		"doctrine/dbal": "^3.7"
 	},
 	"require-dev": {
-		"nette/tester": "~1.7"
+		"nette/tester": "^2.5"
 	},
 	"autoload": {
 		"psr-4": {
